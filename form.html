@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">          
+            <nav id="mainnav"> 
+               <div class="mainnav">
+               <a id=logo href="index.html"> <span class="pink">Nebula</span> <i> Labs</i></a>
+           <div class="mainnav">
+           <ul id="mainnav">
+               <li><a href="uslugi.html">Услуги</a></li>
+               <li><a href="Onas.html">О нас</a></li>
+               <li><a href="klienti.html">Клиенты</a></li>
+               <li><a href="kontakti.html">Контакты</a></li>
+           </ul>
+           </div>
+           </nav>
+        </header>
+        <main>
+            <form action="" id="contact-form">
+                <div class="form_item">
+                    <label for="name"><i>Имя</i></label> <br>
+                    <input name="name" placeholder="ФИО" id="name" type="text" required>
+                </div>
+                <div class="form_item">
+                    <label for="topic"><i>Тема</i></label><br>
+                    <select name="topic=" id="topic">
+                      <option value="1">Заказать услугу</option>
+                      <option value="2">Оставить отзыв/замечание</option>
+                      <option value="3">Предложить сотрудничество</option>
+                      <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="mail"><i>E-mail</i></label><br>
+                    <input name="mail" placeholder="Ваша почта" id="mail" type="email">
+                </div>
+                <div class="form_item">
+                    <label for="name"><i>Телефон для обратной связи</i></label> <br>
+                    <input name="name" placeholder="+7 000-000-00-00" id="name" type="text" required>
+                </div>
+                <div class="form_item">
+                    <label for="sms"><i>Текст сообщения</i></label><br>
+                    <textarea name="sms" id="sms" type="text" required></textarea>
+                </div>
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+            </form>
+        </main>
+    </section>
+   <footer>
+    <nav id="mainnav">
+        <a href="form.html"><p class="footer_block">Написать нам &#9650;</p></a>
+        <p class="footer_block">&copy; Новая компания</p>
+    <div class="footer_icons">
+            <a href="https://m.ok.ru/"><img class="footer_img" src="img/ok.png" alt=""></a>
+            <a href="https://m.vk.com/"><img class="footer_img" src="img/vk.png" alt=""></a>
+            <a href="https://mail.ru/"><img class="footer_img" src="img/mailru.png" alt=""></a>
+    </div>
+    </nav>   
+</footer>
+</body>
+</html>
